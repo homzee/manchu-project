@@ -99,3 +99,59 @@ main p {
   text-align: left;
   white-space: pre-line;
 }
+
+
+/* ナビゲーションバーの背景色とフォントサイズ */
+nav {
+  background-color: #e6eff7;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul li {
+  font-size: 1.6em;
+  position: relative;
+}
+
+/* 縦線の区切り */
+nav ul li:not(:last-child)::after {
+  content: "|";
+  margin-left: 0.7em;
+  margin-right: 0.3em;
+  color: #999;
+}
+
+/* リンクの通常状態とホバー・アクティブ状態のスタイル */
+nav a {
+  text-decoration: none;
+  color: #476584;
+  font-weight: bold;
+  padding: 0.3em 0.6em;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  background-color: #476584;
+  color: white;
+  border-radius: 4px;
+}
+
+
+.site-title img {
+  max-width: 620px !important;
+  height: auto;
+  display: block;
+  margin-left: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+main {
+  max-width: 1200px;
+}
+
+
+main h2, main h3 {
+  margin-top: 1.5em;
+}
