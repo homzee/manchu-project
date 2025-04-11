@@ -1,0 +1,101 @@
+
+body { font-family: 'Noto Sans JP', sans-serif; background-color: #f9f9f9; color: #333; margin: 0; }
+header, footer { background-color: #d0dee7; padding: 1em; text-align: center; }
+.top-header { display: flex; justify-content: space-between; align-items: center; background-color: #fff; padding: 1em; }
+.site-title { font-size: 1.5em; }
+.header-issn { font-size: 0.9em; color: #555; }
+nav { background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+nav ul { display: flex; flex-wrap: wrap; list-style: none; margin: 0; padding: 0.5em 1em; justify-content: center; gap: 1em; }
+nav a { text-decoration: none; color: #476584; font-weight: bold; }
+
+.hero { background: linear-gradient(135deg, #f7f9fa, #d0dee7); padding: 3em 1em; text-align: center; }
+.hero h2 { font-size: 1.8em; margin-bottom: 0.5em; }
+.hero a { background: #476584; color: white; padding: 0.5em 1em; border-radius: 5px; display: inline-block; margin-top: 1em; }
+
+.container { max-width: 1000px; margin: auto; padding: 1em; }
+.latest-news, .latest-issue, .index-highlight, .project-purpose { margin-bottom: 2em; }
+.latest-issue, .index-highlight { background: #f0f5f9; border-left: 5px solid #476584; padding: 1em; }
+
+.footer-info { font-size: 0.9em; color: #555; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  font-size: 14px;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 6px 10px;
+  vertical-align: top;
+  word-break: break-word;
+  white-space: pre-line;
+}
+th {
+  background: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+main {
+  text-align: center;
+}
+
+main h2, main h3 {
+  text-align: center;
+  margin-top: 2em;
+  color: #333366;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+main p {
+  text-align: center;
+  margin-bottom: 1.5em;
+  line-height: 1.8;
+}
+
+.site-title img {
+  max-width: 420px !important;
+  height: auto;
+  display: block;
+  margin-left: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+main {
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+main h2, main h3 {
+  color: #2b4a78;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+  font-size: 1.6em;
+  margin-top: 2.5em;
+}
+
+main p {
+  margin-bottom: 1.8em;
+  line-height: 1.8;
+  font-size: 1.05em;
+}
+
+.site-title img {
+  max-width: 540px !important;
+  height: auto;
+  display: block;
+  margin-left: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+main p {
+  text-align: left;
+  white-space: pre-line;
+}
