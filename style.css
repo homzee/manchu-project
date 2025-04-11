@@ -155,3 +155,7 @@ main {
 main h2, main h3 {
   margin-top: 1.5em;
 }
+
+main p {
+  margin-bottom: 1.5em;
+}
